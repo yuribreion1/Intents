@@ -1,0 +1,29 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Treinando Intents"
+        android:textColor="#FFF"
+        android:layout_marginTop="15sp"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primeiro activity"
+        android:onClick="chamarPrimeiraActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segundo activity"
+        android:onClick="chamarSegundaAcitivy"/>
+</LinearLayout>
